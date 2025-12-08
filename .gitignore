@@ -1,0 +1,15 @@
+^rsconnect$
+^rsconnect/.*$
+rsconnect/
+# R junk
+.Rhistory
+.Rproj.user
+.RData
+.Ruserdata
+.Rbuildignore
+.Rprofile
+.Rproj
+# Secrets
+.Renviron
+# renv build temp
+renv/staging/
