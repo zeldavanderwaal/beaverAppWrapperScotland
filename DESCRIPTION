@@ -1,0 +1,15 @@
+Package: beaverAppWrapperScotland
+Title: beaverAppWrapperScotland
+Version: 0.0.0.1
+Authors@R: 
+    person("zelda", "van der Waal", , "zeldavdwaal@gmail.com", role = c("aut", "cre"))
+Description: a Shiny web wrapper application to run the R-package beaverApp from GitHub (installs app and Scotland data from GitHub, then launches the app in shinyapps.io).
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports: beaverApp, 
+         beaverAppDataWales
+Remotes:
+  github::zeldavanderwaal/beaverApp,
+  github::zeldavanderwaal/beaverAppDataScotland
