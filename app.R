@@ -8,7 +8,7 @@ Sys.setenv(BEAVERAPP_DATA_PKG = "beaverAppDataScotland",
            APP_REGION="Scotland")
            # BEAVERAPP_PASSWORD= "XXX" 
  
-app_password <- Sys.getenv("BEAVERAPP_PASSWORD") 
+app_password <<- Sys.getenv("BEAVERAPP_PASSWORD") 
  
 options(shiny.maxRequestSize = 7200 * 1024^2)  # just in case, 7200MB uploads
 if (!is.na(Sys.getenv("SHINY_PORT", unset = NA))) {
