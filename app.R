@@ -5,7 +5,10 @@ options(beaverApp.data.pkg = "beaverAppDataScotland")   #  data package for this
 Sys.setenv(BEAVERAPP_DATA_PKG = "beaverAppDataScotland", 
            APP_MODE="normal",    
            BEAVERAPP_VERBOSE =FALSE,
-           APP_REGION="Scotland")
+           APP_REGION="Scotland",
+           APP_REGIONSUBSET= "Scotland",
+           BEAVERAPP_TTLESUFF= "Scotland"
+)
            # BEAVERAPP_PASSWORD= "XXX" 
  
 app_password <<- Sys.getenv("BEAVERAPP_PASSWORD") 
